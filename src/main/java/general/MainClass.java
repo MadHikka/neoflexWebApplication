@@ -14,6 +14,6 @@ public class MainClass {
         //c.getCustomers();
         //hibernate.getSessionFactory().isOpen();
         System.out.print(hibernate.getSessionFactory());
-        hibernate.getSessionFactory().isOpen();
+        hibernate.getSessionFactory();
     }
 }
